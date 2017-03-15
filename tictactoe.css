@@ -1,0 +1,75 @@
+/*
+color scheme:
+Dark green: #006400
+light green: #228b22
+light grey: #eeeeff
+violet: #8a2be2
+navy: #000080
+*/
+
+.jumbotron {
+  background-color: #004343;
+  justify-content: center;
+}
+
+#title {
+font-color: white;
+  font-size: 50px;
+}
+
+p {
+ color: white;
+}
+
+.row {
+  background-color: #004343;
+  margin-top: 40px;
+  text-align: center;
+
+}
+
+#frame {
+  margin: auto;
+  display: block;
+  border: 3px solid black;
+  width: 138px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  background-color: #206F6F;
+}
+
+.btn-primary {
+  color: white;
+  border: none;
+  border-radius: 0px;
+  height: 40px;
+  width: 40px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  background: #6f0000;
+  background: -webkit-linear-gradient(#6f0000, #200122);
+  background: -o-linear-gradient(#6f0000, #200122);
+  background: -moz-linear-gradient(#6f0000, #200122);
+  background: linear-gradient(#6f0000, #200122);
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+  border-radius: 0px;
+  height: 40px;
+  width: 40px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  background: #6f0000;
+  background: -webkit-linear-gradient(#6f0000, #200122);
+  background: -o-linear-gradient(#6f0000, #200122);
+  background: -moz-linear-gradient(#6f0000, #200122);
+  background: linear-gradient(#6f0000, #200122);
+}
+
+.reset {
+  margin-top: 40px;
+}
